@@ -4,9 +4,13 @@
 # AIM:
 To Develop a python program to Plot a time series data (Settle weather).
 # ALGORITHM:
-
+1. Import the required packages like pandas and matplot
+2. Read the dataset using the pandas
+3. Calculate the mean for the respective column.
+4. Plot the data according to need and can be altered monthly, or yearly.
+5. Display the graph.
 # PROGRAM:
-'''
+```
 import pandas as pd
 import matplotlib.pyplot as plt
 file_path = '/content/seattle_weather_1948-2017.csv'
@@ -24,11 +28,9 @@ plt.title('Weather Data Over Time')
 plt.legend()
 plt.grid(True)
 plt.show()
-'''
 
 
-
-
+```
 
 
 
@@ -39,6 +41,7 @@ plt.show()
 
 
 
+![Screenshot 2024-08-23 095351](https://github.com/user-attachments/assets/fbadb350-b9ee-4deb-b6f3-6d5e47053797)
 
 
 
